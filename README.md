@@ -50,13 +50,9 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 ---
 
-#### My grade
+###  Summary :
 
 ---
-
-<img src="./images/score.png" width="150" height="150"/>
-
-## ✏︎  The topics we will discuss in this README are:
 
   [∙ What is an IP?](#what-is-an-ip)
   
@@ -86,11 +82,32 @@ In a network, devices need to communicate. For this, [communication protocols](h
   
   [∙ How to calculate a subnet mask from IP address step by step?](#how-to-calculate-a-subnet-mask-from-ip-address-step-by-step)
 
+---
+
 ## What is an IP?
 
-  An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc..., an IP address identifies a network or a device on the internet. And an IP address got two important parts, which are:
+---
+
+<p align="center">
+<img src="https://github.com/ablaamim/Netpractice/blob/master/img/1650614315_Quest-ce-quune-adresse-IP-et-comment-savoir-laquelle-est-la.jpeg" width="500">
+</p>
+
+### DEFINITIONS :
+
+> An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc...
+> An IP address is a string of numbers separated by periods. IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255.
+
+  An IP address identifies a network or a device on the internet. And an IP address got two important parts, which are:
   * **The Network ID**
   * **The Host ID**
+
+---
+
+<p align="right">
+	<b><a href="#summary">⏫ Back To Top</a><b>
+</p>
+
+---
 
 ## What are the types of an IP address?
 
