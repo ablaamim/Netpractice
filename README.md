@@ -23,7 +23,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 ---
 
-### I think we'll be OK now
+> I think we'll be OK now !!
 
 ---
 
@@ -33,7 +33,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 ---
 
-### Badge
+### Project badge :
 
 ---
 
@@ -41,7 +41,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 ---
 
-#### Skills
+### Skills and requirements :
 
 ---
 
@@ -49,7 +49,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 - Rigor
 
 
-## Summary :
+## Summary
 
 
   [∙ What is an IP?](#what-is-an-ip)
