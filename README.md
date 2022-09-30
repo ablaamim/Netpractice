@@ -50,7 +50,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
 ---
 
-##  Summary :
+## Summary :
 
 ---
 
@@ -145,6 +145,10 @@ In a network, devices need to communicate. For this, [communication protocols](h
     * **Transport Layer:** is what provides a reliable data connection between two devices, it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
     * **Application Layer:** is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there's no need for the applications to concern themselves with it.
 
+<p align="right">
+	<b><a href="##summary">⏫ Back To Top</a><b>
+</p>
+
 ## What is a switch?
 
   A switch is a device that **connects devices within the same network**, usually a `LAN network (which is a Local Area Network)`, and forwards data packets to and from those devices, *unlike a router*, **a switch** *only sends the data to the devices it is intended for* (which may be another switch, a router, or a user's computer).
@@ -166,6 +170,10 @@ In a network, devices need to communicate. For this, [communication protocols](h
 ## What is a loopback address?
 
   A **loopback address** is an address that is built into the IP domain system in order to allow for a device to **send and receive its own data packets.** And it is a distinct reserved IP address range that `starts from 127.0.0.0 and ends at 127.255.255.255`, and its used for various kind of analysis, usually for *testing purposes and debugging*.
+
+<p align="right">
+	<b><a href="##summary">⏫ Back To Top</a><b>
+</p>
 
 ## What is a subnet?
 
@@ -233,3 +241,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
   * https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
   * https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF
+
+<p align="right">
+	<b><a href="##summary">⏫ Back To Top</a><b>
+</p>
