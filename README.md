@@ -48,11 +48,9 @@ In a network, devices need to communicate. For this, [communication protocols](h
 - Network & system administration
 - Rigor
 
----
 
 ## Summary :
 
----
 
   [∙ What is an IP?](#what-is-an-ip)
   
