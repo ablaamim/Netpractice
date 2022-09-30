@@ -93,6 +93,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 ### DEFINITIONS :
 
 > An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc...
+
 > An IP address is a string of numbers separated by periods. IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255.
 
   An IP address identifies a network or a device on the internet. And an IP address got two important parts, which are:
@@ -102,7 +103,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 ---
 
 <p align="right">
-	<b><a href="##summary">⏫ Back To Top</a><b>
+	<b><a href="#summary">⏫ Back To Top</a><b>
 </p>
 
 ---
@@ -144,7 +145,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
     * **Application Layer:** is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there's no need for the applications to concern themselves with it.
 
 <p align="right">
-	<b><a href="##summary">⏫ Back To Top</a><b>
+	<b><a href="#summary">⏫ Back To Top</a><b>
 </p>
 
 ## What is a switch?
