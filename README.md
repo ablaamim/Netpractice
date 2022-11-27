@@ -13,7 +13,6 @@
 > And of course, I might and will be mistaken for something, so please if there's a mistake or a misunderstanding, let me know by doing a pull request or just by a direct message! THANK YOU SO MUCH! **THANK YOU SO MUCH** ☺️
 
 ---
-
 ## What is NetPractice?
 
 ---
@@ -188,7 +187,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
   We will work with the IP address `10.20.4.13/29`
 
-  ### Step 1 : Find Subnet Number:
+  ### Step 1 : Find Subnet Number :
     Subtract prefix number from /32
     32 - 29 = 3
     
@@ -207,7 +206,8 @@ In a network, devices need to communicate. For this, [communication protocols](h
     
     Subnet Mask = 255.255.255.248
   
-  ### Step 2 : Find Subnet Size:
+  ### Step 2 : Find Subnet Size :
+
     Raise 2 to the power of deducation (8 - 3 = 5) -> Let's called it n.
     
     2 ** n    = Subnet Size.
@@ -217,18 +217,21 @@ In a network, devices need to communicate. For this, [communication protocols](h
     NOTE: 8 is the block size for the subnet, so for example:
     the increments will now be 0 8 16 32 40 and so on (we add 8 each time)
     
-  ### Step 3 : Find Broadcast Address:
+  ### Step 3 : Find Broadcast Address :
+
     Subnet size - 1
     (2 ** n) - 1  = Broadcast Address
     (2 ** 3) - 1  = (8 - 1) = 7
   
-  ### Step 4 : Locate IP Address Subnet:
+  ### Step 4 : Locate IP Address Subnet :
+
     Identify subnet block for IP address:
     -> Where in each increment is the address 10.20.4.13/29 located (0 8 16 32 40)?
     
     13 falls between 8 and 16 and therefore the address is in the valid host range of the subnet 10.20.4.8/29
   
-  ### Step 5 : Calculate The Valid Hosts:
+  ### Step 5 : Calculate The Valid Hosts :
+
     Subnet size - 2
     (2 ** n) - 2 = Valid Host Range
     (2 ** 3) - 2 = (8 - 2) = 6
