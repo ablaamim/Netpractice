@@ -184,7 +184,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
   We will work with the IP address `10.20.4.13/29`
 
-  ### Step 1: Find Subnet Number:
+  ### Step 1 : Find Subnet Number:
     Subtract prefix number from /32
     32 - 29 = 3
     
@@ -203,7 +203,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
     
     Subnet Mask = 255.255.255.248
   
-  ### Step 2: Find Subnet Size:
+  ### Step 2 : Find Subnet Size:
     Raise 2 to the power of deducation (8 - 3 = 5) -> Let's called it n.
     
     2 ** n    = Subnet Size.
@@ -213,18 +213,18 @@ In a network, devices need to communicate. For this, [communication protocols](h
     NOTE: 8 is the block size for the subnet, so for example:
     the increments will now be 0 8 16 32 40 and so on (we add 8 each time)
     
-  ### Step 3: Find Broadcast Address:
+  ### Step 3 : Find Broadcast Address:
     Subnet size - 1
     (2 ** n) - 1  = Broadcast Address
     (2 ** 3) - 1  = (8 - 1) = 7
   
-  ### Step 4: Locate IP Address Subnet:
+  ### Step 4 : Locate IP Address Subnet:
     Identify subnet block for IP address:
     -> Where in each increment is the address 10.20.4.13/29 located (0 8 16 32 40)?
     
     13 falls between 8 and 16 and therefore the address is in the valid host range of the subnet 10.20.4.8/29
   
-  ### Step 5: Calculate The Valid Hosts:
+  ### Step 5 : Calculate The Valid Hosts:
     Subnet size - 2
     (2 ** n) - 2 = Valid Host Range
     (2 ** 3) - 2 = (8 - 2) = 6
@@ -236,7 +236,7 @@ In a network, devices need to communicate. For this, [communication protocols](h
     Max Host Address  -> 10.20.4.14/29
     Broadcast Address -> 10.20.4.15/29
 
-## YouTube playlists to help you understand more about networking and related stuff 😇
+## YouTube playlists to help you understand more about networking and related stuff :
 
   * https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
   * https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF
