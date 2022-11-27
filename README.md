@@ -170,9 +170,13 @@ In a network, devices need to communicate. For this, [communication protocols](h
 
   A **loopback address** is an address that is built into the IP domain system in order to allow for a device to **send and receive its own data packets.** And it is a distinct reserved IP address range that `starts from 127.0.0.0 and ends at 127.255.255.255`, and its used for various kind of analysis, usually for *testing purposes and debugging*.
 
+---
+
 <p align="right">
-	<b><a href="##summary">⏫ Back To Top</a><b>
+	<b><a href="#summary">⏫ Back To Top</a><b>
 </p>
+
+---
 
 ## What is a subnet?
 
@@ -236,11 +240,17 @@ In a network, devices need to communicate. For this, [communication protocols](h
     Max Host Address  -> 10.20.4.14/29
     Broadcast Address -> 10.20.4.15/29
 
+---
+
 ## YouTube playlists to help you understand more about networking and related stuff :
 
   * https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
   * https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF
 
+---
+
 <p align="right">
-	<b><a href="##summary">⏫ Back To Top</a><b>
+	<b><a href="#summary">⏫ Back To Top</a><b>
 </p>
+
+---
